@@ -1,1 +1,1 @@
-# smart-farm-androiod-application
+# smart-farm-android-application
