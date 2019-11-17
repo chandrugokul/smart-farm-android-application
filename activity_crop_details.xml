@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crop_details"
+    android:background="@drawable/crop_details">
+
+    <TextView
+        android:id="@+id/textVie8"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Crop Details"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="95dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/round_text"
+        android:gravity="center"
+        android:text="crop name" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="114dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginTop="124dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="227dp"
+        android:background="@drawable/round_text"
+        android:gravity="center"
+        android:text="Crop Quantity" />
+
+    <EditText
+        android:id="@+id/kg"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/spin"
+        android:layout_alignTop="@+id/textView7"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="kg"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/rounded"
+        android:text="SUBMIT"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

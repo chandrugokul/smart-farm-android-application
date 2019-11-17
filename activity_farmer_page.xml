@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/farmer_home"
+    tools:context=".farmer_page">
+
+    <Button
+        android:id="@+id/crop_details"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/round_text"
+        android:text="CROP DETAIL" />
+
+
+    <Button
+        android:id="@+id/updatecrop"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/round_text"
+        android:text="VIEW CROP" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="138dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/group"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="202dp"
+        android:background="@drawable/round_text"
+        android:text="GROUP" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/round_text"
+        android:text="SHARING TIPS"
+        android:onClick="share"/>
+
+    <Button
+        android:id="@+id/logout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded"
+        android:onClick="logout1"
+        android:text="Logout" />
+</RelativeLayout>

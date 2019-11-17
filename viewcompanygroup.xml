@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/cover"
+        android:gravity="center"
+        android:onClick="list">
+
+
+        <TextView
+            android:id="@+id/places1"
+            android:layout_width="81dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/round_text"
+            android:gravity="center"
+            android:text="Place name" />
+
+        <TextView
+            android:id="@+id/totalq1"
+            android:layout_width="81dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/places1"
+            android:background="@drawable/round_text"
+            android:gravity="center"
+            android:text="Total" />
+
+        <TextView
+            android:id="@+id/cropname"
+            android:layout_width="71dp"
+            android:layout_height="39dp"
+            android:layout_alignTop="@+id/places1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_text"
+            android:gravity="center"
+            android:text="cropname" />
+
+        <TextView
+            android:id="@+id/mob"
+            android:layout_width="174dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="21dp"
+            android:layout_toStartOf="@+id/totalq1"
+            android:background="@drawable/round_text"
+            android:gravity="center"
+            android:text="MOB NO" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/places1"
+            android:layout_alignTop="@+id/mob"
+            android:gravity="center"
+            android:text="MOBILE" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:background="@drawable/farmer_home">
+
+
+    <EditText
+        android:id="@+id/txtfname"
+        android:layout_width="260dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="259dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="252dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/rounded"
+        android:text="@string/register"
+
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/adhaar"
+        android:layout_width="252dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Adhaar_no/uzhavan_id"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Area/Village Name"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spindis"
+        android:layout_width="111dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/txtfname"
+        android:layout_alignTop="@+id/spintaluk"
+        android:gravity="center"
+        android:background="@drawable/round_text" />
+
+    <Spinner
+        android:id="@+id/spintaluk"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/txtfname"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="135dp"
+        android:background="@drawable/round_text" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="187dp"
+        android:layout_toStartOf="@+id/btnreg"
+        android:background="@drawable/round_text"
+        android:gravity="center"
+        android:text="District"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtcpass"
+        android:layout_alignTop="@+id/textView4"
+        android:background="@drawable/round_text"
+        android:gravity="center"
+        android:text="Taluk"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtcpass"
+        android:layout_width="239dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/round_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="retype_password"
+        android:inputType="textPassword" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".front"
+    android:background="@drawable/front">
+
+
+    <LinearLayout
+        android:layout_width="199dp"
+        android:layout_height="267dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/cover">
+
+
+        <Button
+            android:id="@+id/btnreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_text"
+            android:padding="20dp"
+            android:text="Farmer Register"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/btnreg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_text"
+            android:padding="20dp"
+            android:text="Company Register"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/btnlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_text"
+            android:padding="20dp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+</RelativeLayout>
